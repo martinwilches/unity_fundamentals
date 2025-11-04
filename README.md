@@ -45,3 +45,28 @@ Area de contenido del juego
 
 ### Camara
 - Se encarga de renderizar los objetos de la escena en la vista del juego
+
+## Scripts
+
+Codigo utilizado para controlar el comportamiento de los objetos en el juego (Los componentes de un objeto son Scripts).
+
+Ejemplo de variables y funciones
+
+```csharp
+int base;
+int altura;
+void CalcularArea()
+{
+    base = PedirBase();
+    altura = PedirAltura();
+
+    float r = base * altura/2;
+
+    MostrarArea(r);
+}
+
+void MostrarArea(float resultado)
+{
+    Console.WriteLine(resultado);
+}
+```
