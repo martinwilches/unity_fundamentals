@@ -94,7 +94,9 @@ Punto del eje por el cual se mueve el Sprite. Por defecto la posicion del pivote
 
 Si se configura el pivote con el valor Top Left, este se ubicara en la parte superior izquierda del Sprite.
 
-### Filter Mode: Es la manera que utiliza Unity para mejorar el aspecto o la calidad de una imagen.
+### Filter Mode
+
+Es la manera que utiliza Unity para mejorar el aspecto o la calidad de una imagen.
    
 - __Bilinear:__ Se añade un efecto de sombreado para que no se noten los pixeles.
 - __Point:__ Sin filtro de mejora para que se vean los pixeles.
