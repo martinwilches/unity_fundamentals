@@ -70,3 +70,31 @@ void MostrarArea(float resultado)
     Console.WriteLine(resultado);
 }
 ```
+
+## Sprite 
+
+Imagen de 2 dimensiones en el juego (por ejemplo personajes u objetos).
+
+### Texture Type
+
+Cuando se importa una imagen en un proyecto configurado como 2D, esta automaticamente aparecera como Sprite 2D en la opcion de Texture Type.
+
+### Sprite Mode:
+
+- __Single:__ La textura solo tiene un elemento grafico.
+- __Multiple:__ La textura esta compuesta por multiples elementos graficos.
+
+### Pixeles por unidad
+
+En la escena cada cuadrado de la cuadricula es una unidad. Por defecto su valor fijado es 100. Ejemplo, si la textura tiene una altura de 100px, esta ocupara una unidad, si es de 50px y el valor de unidad de Pixeles por unidad esta configurado en 100, la textura ocupara la mitad del cuadrado.
+
+### Pivot
+
+Punto del eje por el cual se mueve el Sprite. Por defecto la posicion del pivote del Sprite se encuentra en el centro (0,0).
+
+Si se configura el pivote con el valor Top Left, este se ubicara en la parte superior izquierda del Sprite.
+
+### Filter Mode: Es la manera que utiliza Unity para mejorar el aspecto o la calidad de una imagen.
+   
+- __Bilinear:__ Se añade un efecto de sombreado para que no se noten los pixeles.
+- __Point:__ Sin filtro de mejora para que se vean los pixeles.
