@@ -100,3 +100,27 @@ Es la manera que utiliza Unity para mejorar el aspecto o la calidad de una image
    
 - __Bilinear:__ Se añade un efecto de sombreado para que no se noten los pixeles.
 - __Point:__ Sin filtro de mejora para que se vean los pixeles.
+
+## Time.deltaTime
+
+Tiempo que transcurre entre un frame y el siguiente. Se usa para que los movimientos y animaciones sean suaves y constantes sin importar cuantos FPS tenga el juego.
+
+Si no se usa Time.deltaTime el juego ira mas rapido en computadoras con mas FPS y mas lento en computadoras con menos FPS.
+
+```csharp
+transform.Translate(1 * Time.deltaTime, 0, 0)
+```
+
+## Fisicas
+
+### Componente RigidBody
+
+Le indica a Unity que el GameObject es un objeto rigido y le afecta la gravedad.
+
+### Collider
+
+Componente que permite que un GameObject colisione con otro.
+
+### Material
+
+Ajustar la friccion y el rebote cuando un GameObject colisiona con otro.
